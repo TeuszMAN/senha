@@ -99,7 +99,7 @@ public class ControleDePilha {
             }
 
         }
-        if (lista.isEmpty()) { return "Nao há senhas para serem listadas!";}
+        if (lista == null) { return "Nao há senhas para serem listadas!";}
         return lista.toString();
     }
 }
