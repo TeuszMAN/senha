@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Interface {
+public class TerminalInterface {
     private ControleDePilha controleDePilha;
     private Scanner scanner;
 
-    public Interface() {
+    public TerminalInterface() {
         controleDePilha = new ControleDePilha();
         scanner = new Scanner(System.in);
     }
